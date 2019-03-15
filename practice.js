@@ -14,7 +14,7 @@ var myAge = 23;
 
 //Create a variable called lovesCode that is a boolean data type
 
-var lovesCode = (true, false);
+var lovesCode = true;
 
 //////////////////PROBLEM 4////////////////////
 
@@ -95,7 +95,7 @@ function nameCheck(name) {
   } else if (name === "Bryan") {
     return "Hey Bryan!";
   } else {
-    return "Cool name, " + name
+    return "Cool name, " + name;
   }
 }
 
@@ -106,14 +106,12 @@ function nameCheck(name) {
 // The add function should return the two parameters added together
 
 function add(num1, num2) {
-return num1 + num2
+  return num1 + num2;
 }
 
-mathSum =  add(3, 4)
+mathSum = add(3, 4);
 //Now invoke add, passing in the numbers 3 and 4
 //storing the result in the variable mathSum.
-
-
 
 //////////////////PROBLEM 13////////////////////
 
@@ -124,44 +122,36 @@ mathSum =  add(3, 4)
 // If the passed in color equals 'black', return 'so trendy'
 // Otherwise, you should return the string 'you need to evaluate your favorite color choice'
 
-function faveColorFinder(color){
-if (color === 'red'){
-  return 'red is a great color'
-} else {
-  if (color === 'green'){
-    return 'green is a solid favorite color'
+function faveColorFinder(color) {
+  if (color === "red") {
+    return "red is a great color";
   } else {
-    if (color === 'black') {
-      return 'so trendy'
+    if (color === "green") {
+      return "green is a solid favorite color";
     } else {
-      return 'you need to evaluate your favorite color choice'
+      if (color === "black") {
+        return "so trendy";
+      } else {
+        return "you need to evaluate your favorite color choice";
+      }
     }
   }
 }
-
-
-}
-
 
 //////////////////PROBLEM 14////////////////////
 
 let duck = "cute";
 
 function bathroom() {
-
   let rubberDuck = "squeaky";
 
   function bathtub() {
-
     let sailorDuck = "nautical";
-
   }
 }
 
 function pond() {
-
   let realDuck = "fluffy";
-
 }
 
 //There are 4 variables above: duck, rubberDuck, sailorDuck and realDuck
@@ -182,17 +172,16 @@ let bathtubScope = ["duck", "sailorDuck", "rubberDuck"];
 //This array should contain the variable names (as strings) accessible in the pond function.
 let pondScope = ["duck", "realDuck"];
 
-
 //////////////////PROBLEM 15////////////////////
 
 //Create a variable called age with your age assigned to you
 
-var age = 23
+var age = 23;
 
 // FLASH FORWARD TO NEXT YEAR
 // reassign the value of age to be one greater than it was, because, we all get older
 
-var age = 24
+var age = 24;
 // Good news! We can live forever. Set your age to 999
 
-var age = 999
+var age = 999;
